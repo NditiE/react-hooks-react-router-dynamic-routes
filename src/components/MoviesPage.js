@@ -1,12 +1,13 @@
 import React from "react";
-import { Route } from "react-router-dom";
-import MoviesList from "./MoviesList";
+import MoviesPage from "./MoviesPage";
 
-function MoviesPage({ movies }) {
+function MoviesPageComponent({ movies }) {
   return (
     <div>
-      <MoviesList movies={movies} />
+      <MoviesPage movies={movies} />
     </div>
   );
 }
-export default MoviesPage;
+
+
+export default MoviesPageComponent;
